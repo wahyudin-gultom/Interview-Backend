@@ -46,17 +46,18 @@ namespace Wahyudingultom_test.Repository
                 {
                     foreach(Item dt in item.items)
                     {
+                        detail.id = item.id;
+                        detail.category = item.category.HasValue ? item.category.Value : 0;
+                        detail.tags = item.tags != null ? item.tags.ToArray() : null;
+                        detail.createdAt = item.createdAt;
                         detail.title = dt.title;
                         detail.description = dt.description;
                         detail.footer = dt.footer;
+                        
+                        result.Add(detail);
                     }
                 }
-                detail.id = item.id;
-                detail.category = item.category.HasValue ? item.category.Value : 0;
-                detail.tags = item.tags != null ? item.tags.ToArray() : null;
-                detail.createdAt = item.createdAt;
-
-                result.Add(detail);
+                
             }
 
             return result;
