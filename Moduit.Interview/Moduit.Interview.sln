@@ -1,6 +1,11 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Moduit.Interview", "Moduit.Interview\Moduit.Interview.csproj", "{D02A2E6C-58EE-4A34-9036-CEA40BE6E996}"
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31424.327
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Moduit.Interview", "Moduit.Interview\Moduit.Interview.csproj", "{D02A2E6C-58EE-4A34-9036-CEA40BE6E996}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Wahyudingultom_test", "Wahyudingultom_test\Wahyudingultom_test.csproj", "{AD62C821-2303-4AEB-AF04-018627C4198A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -12,5 +17,15 @@ Global
 		{D02A2E6C-58EE-4A34-9036-CEA40BE6E996}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D02A2E6C-58EE-4A34-9036-CEA40BE6E996}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D02A2E6C-58EE-4A34-9036-CEA40BE6E996}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AD62C821-2303-4AEB-AF04-018627C4198A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AD62C821-2303-4AEB-AF04-018627C4198A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AD62C821-2303-4AEB-AF04-018627C4198A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AD62C821-2303-4AEB-AF04-018627C4198A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {74E096F0-0029-42FB-8112-C30C8C90B4E7}
 	EndGlobalSection
 EndGlobal
